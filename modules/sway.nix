@@ -17,6 +17,7 @@
   };
 
   security.polkit.enable = true;
+  services.gnome.gnome-keyring.enable = true;
   hardware.graphics.enable = true;
   security.pam.services.swaylock = { };
   programs.dconf.enable = true;

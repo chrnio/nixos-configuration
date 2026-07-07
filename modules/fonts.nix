@@ -8,7 +8,7 @@
     # monospaced fonts
     nerd-fonts.jetbrains-mono
     nerd-fonts._0xproto
-    nerd-fonts.intone-ono
+    nerd-fonts.intone-mono
     maple-mono.Normal-TTF
   ];
 

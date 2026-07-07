@@ -1,10 +1,14 @@
 { pkgs, ... }:
 {
   fonts.packages = with pkgs; [
+    # system fonts
     adwaita-fonts
+    nerd-fonts.symbols-only
+
+    # monospaced fonts
     nerd-fonts.jetbrains-mono
     nerd-fonts._0xproto
-    nerd-fonts.symbols-only
+    nerd-fonts.intone-ono
     maple-mono.Normal-TTF
   ];
 

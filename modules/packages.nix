@@ -36,19 +36,11 @@
 
     # media and docs
     ffmpeg
-    pandoc
-    poppler
 
     # editors
     neovim
     tree-sitter
     zed-editor
-
-    # emacs
-    emacs-pgtk
-    aspell
-    aspellDicts.en
-    libtool
 
     # apps
     proton-pass
@@ -56,7 +48,5 @@
     discord
     brave
     spotify
-    mpv
-    pavucontrol
   ];
 }

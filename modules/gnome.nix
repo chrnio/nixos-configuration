@@ -32,6 +32,9 @@
     simple-scan
   ];
 
+  # Install stuff
   environment.systemPackages = with pkgs; [
+    fractal
+    foliate
   ];
 }

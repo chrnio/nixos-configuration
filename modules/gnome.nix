@@ -2,21 +2,20 @@
 {
 
   # Enable X11
-  services.xserver.enable = true; 
+  services.xserver.enable = true;
 
   # GNOME Desktop Env
-  services.xserver.displayManager.gdm.enable = true;
-  services.xserver.desktopManager.gnome.enable = true;
+  services.displayManager.gdm.enable = true;
+  services.desktopManager.gnome.enable = true;
 
   # Keymap in X11
   services.xserver.xkb = {
     layout = "us";
     variant = "";
   };
-  
+
   # Disable CUPS to not print documents, also what even is CUPS?
   services.printing.enable = false;
-
 
   # Disable bloat
   environment.gnome.excludePackages = with pkgs; [
@@ -33,9 +32,6 @@
     simple-scan
   ];
 
-
   environment.systemPackages = with pkgs; [
   ];
 }
-
-

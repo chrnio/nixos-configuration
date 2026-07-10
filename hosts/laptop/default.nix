@@ -10,7 +10,7 @@
     ../../modules/fonts.nix
     ../../modules/users.nix
     ../../modules/packages.nix
-   # ../../modules/development.nix
+    ../../modules/development.nix
   ];
 
   networking.hostName = "nixos";
